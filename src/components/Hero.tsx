@@ -63,7 +63,7 @@ export function Hero() {
 
                 {/* Image Content */}
                 <motion.div
-                    className="relative h-[600px] w-full hidden md:block"
+                    className="relative h-[400px] md:h-[600px] w-full"
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1, delay: 0.2 }}
