@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-  title: "Brindhalaya Silks",
-  description: "Exclusive Silk Sarees and Dresses",
+  title: "Brindha's Boutique",
+  description: "Premium silk sarees and designer dresses",
 };
 
 export default function RootLayout({
