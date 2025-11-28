@@ -101,7 +101,7 @@ export default function ProductDetailsPage({ params }: { params: Promise<{ id: s
                         <div className="pt-6 border-t border-border">
                             <div className="flex flex-col sm:flex-row gap-4">
                                 <Button asChild size="lg" variant="outline" className="w-full md:w-auto border-green-600 text-green-600 hover:bg-green-600 hover:text-white transition-colors">
-                                    <a href={`https://wa.me/${contactInfo?.whatsapp}?text=I'm interested in ${product.name}`} target="_blank" rel="noopener noreferrer">
+                                    <a href={`https://api.whatsapp.com/send?phone=${contactInfo?.whatsapp}&text=${encodeURIComponent(`I'm interested in ${product.name}`)}`} target="_blank" rel="noopener noreferrer">
                                         <MessageCircle className="mr-2 h-5 w-5" /> Enquire via WhatsApp
                                     </a>
                                 </Button>

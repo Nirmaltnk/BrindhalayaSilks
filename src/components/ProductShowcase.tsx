@@ -69,7 +69,7 @@ export function ProductShowcase({
                                 <CardFooter>
                                     <div className="grid grid-cols-2 gap-2 w-full">
                                         <Button asChild variant="outline" className="w-full border-green-600 text-green-600 hover:bg-green-600 hover:text-white transition-colors">
-                                            <a href={`https://wa.me/${contactInfo?.whatsapp}?text=I'm interested in ${product.name}`} target="_blank" rel="noopener noreferrer">
+                                            <a href={`https://api.whatsapp.com/send?phone=${contactInfo?.whatsapp}&text=${encodeURIComponent(`I'm interested in ${product.name}`)}`} target="_blank" rel="noopener noreferrer">
                                                 <MessageCircle className="mr-2 h-4 w-4" /> WhatsApp
                                             </a>
                                         </Button>
