@@ -16,7 +16,7 @@ export default function Home() {
       <footer className="bg-foreground text-background py-12">
         <div className="container mx-auto px-4 grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-serif font-bold mb-4 text-primary">Brindhalaya Silks</h3>
+            <h3 className="text-2xl font-serif font-bold mb-4 text-primary">Brindha's Boutique</h3>
             <p className="text-background/70">
               Your destination for premium silk sarees and dresses.
             </p>
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
         </div>
         <div className="border-t border-background/10 mt-12 pt-8 text-center text-background/50 text-sm">
-          © 2025 Brindhalaya Silks. All rights reserved.
+          © 2025 Brindha's Boutique. All rights reserved.
         </div>
       </footer>
     </main>

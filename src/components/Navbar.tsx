@@ -32,14 +32,14 @@ export function Navbar() {
                 <Link href="/" className="flex items-center gap-2">
                     <div className="relative w-12 h-12 overflow-hidden rounded-full border-2 border-primary">
                         <Image
-                            src="/logo.jpg"
-                            alt="Brindhalaya Silks"
+                            src="/logo.png"
+                            alt="Brindha's Boutique"
                             fill
                             className="object-cover"
                         />
                     </div>
                     <span className="font-serif text-xl md:text-2xl font-bold text-foreground tracking-wide">
-                        Brindhalaya <span className="text-primary">Silks</span>
+                        Brindha's <span className="text-primary">Boutique</span>
                     </span>
                 </Link>
 
