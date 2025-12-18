@@ -10,6 +10,11 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 export const metadata: Metadata = {
   title: "Brindha's Boutique",
   description: "Premium silk sarees and designer dresses",
+  icons: {
+    icon: '/favicon.ico?v=6',
+    shortcut: '/favicon.ico?v=6',
+    apple: '/favicon.ico?v=6',
+  },
 };
 
 export default function RootLayout({
